@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>SIT120 1.3p</title>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <h1>Chongyang Zhou SIT120 1.3p</h1>
+        </header>
+        <nav>
+            <router-link to="/">Home</router-link>
+            <router-link to="/projects">Projects</router-link>
+            <router-link to="/about">About</router-link>
+            <router-link to="/contact">Contact</router-link>
+        </nav>
+        <router-view></router-view>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/vue-router@4"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
